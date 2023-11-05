@@ -18,10 +18,11 @@ $(function () {
     element.children("textarea").val(savedData);
   });
 
-  var todayDate = dayjs().format("LL");
+  var todayDate = dayjs().format("MMMM D, YYYY");
 
   // Get element currentDay and replace with current Date
   $("#currentDay").text(todayDate);
+  console.log(todayDate);
 
   var currentHour = parseInt(dayjs().format("HH"));
 
