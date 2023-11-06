@@ -10,11 +10,11 @@ The Day.js library was also used to accurately incorporate date and time.
 
 ## Page Link
 
-<!-- insert page link here -->
+https://ae-andre.github.io/work-day-scheduler/
 
 ## Mock up
 
-![The work day scheduler includes a title, description, current date, and hourly time blocks with save buttons.](./assets/work%20day%20scheduler%20mock-up.png)
+![The work day scheduler includes a title, description, current date, and hourly time blocks with save buttons.](./Assets/Images/work%20day%20scheduler%20mock%20up.jpg)
 
 ## License
 
