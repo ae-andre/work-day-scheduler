@@ -1,3 +1,4 @@
+// button function to save user inputs to local storage
 $(function () {
   var saveButtons = $(".btn");
 
@@ -22,7 +23,6 @@ $(function () {
 
   // Get element currentDay and replace with current Date
   $("#currentDay").text(todayDate);
-  console.log(todayDate);
 
   var currentHour = parseInt(dayjs().format("HH"));
 
@@ -31,7 +31,7 @@ $(function () {
     const currentBlock = $(this);
     var idAsInteger = parseInt(currentBlock.attr("id").substring(5));
 
-    //  function will check if current hour === currentHour
+    //  function will check if current hour === currentHour, then apply relevant color
     if (idAsInteger === currentHour) {
       currentBlock.addClass("present");
     } else if (idAsInteger < currentHour) {
